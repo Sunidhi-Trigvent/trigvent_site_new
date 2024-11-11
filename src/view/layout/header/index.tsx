@@ -1,7 +1,7 @@
 import logoImage from "../../../assets/images/logo1.png"; // Import the image
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons"; // Correct import for faBars
+import { faBars, faX } from "@fortawesome/free-solid-svg-icons"; // Correct import for faBars and faX
 
 function Header() {
   const navItems = [
@@ -32,6 +32,11 @@ function Header() {
     },
   ];
 
+  const onToggleMenu = () => {
+    console.log("Menu toggled!");
+    // You can implement your toggle logic here
+  };
+
   return (
     <div>
       <section className="h-screen bg-blue-300">
@@ -61,9 +66,9 @@ function Header() {
             </div>
 
             <div>
-              {/* Correct usage of FontAwesomeIcon */}
-              <FontAwesomeIcon icon={faBars} />{" "}
-              {/* Use the imported icon here */}
+              {/* Correct usage of FontAwesomeIcon for both faBars and faX */}
+              <FontAwesomeIcon onClick={onToggleMenu} icon={faBars} />
+              <FontAwesomeIcon icon={faX} /> {/* Using faX close icon */}
             </div>
           </nav>
         </header>
