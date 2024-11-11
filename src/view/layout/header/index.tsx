@@ -41,7 +41,7 @@ function Header() {
 
   return (
     <div>
-      <section className="h-[46vh] bg-white ">
+      <section className="">
         <header className="bg-slate-300">
           <nav className="flex justify-between items-center p-2 w-[92%] bg-red-400 mx-auto ">
             <div className="">
@@ -65,7 +65,7 @@ function Header() {
             <div
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              } xs:min-h-[40vh]  space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-3/4 left-1/2 transform -translate-x-1/2 md:w-4/5  lg:static lg:w-auto absolute top-16 w-full bg-white px-2 py-2 lg:space-y-0`}
+              } xs:min-h-[40vh] space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-[92%] lg:static lg:w-auto absolute top-16 left-1/2 transform -translate-x-1/2 bg-white px-2 py-2 lg:space-y-0`}
             >
               <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 {navItems.map((item) => (
