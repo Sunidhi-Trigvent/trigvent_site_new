@@ -65,7 +65,7 @@ function Header() {
               </div>
             </div>
 
-            <div>
+            <div className="block lg:hidden">
               {/* Correct usage of FontAwesomeIcon for both faBars and faX */}
               <FontAwesomeIcon onClick={onToggleMenu} icon={faBars} />
               <FontAwesomeIcon icon={faX} /> {/* Using faX close icon */}
