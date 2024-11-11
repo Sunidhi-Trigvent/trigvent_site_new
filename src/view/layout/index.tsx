@@ -5,7 +5,6 @@ import { Outlet } from "react-router-dom";
 const Index = () => {
   return (
     <>
-      console.log("hi");
       <Header />
       <Outlet />
       <Footer />
