@@ -1,7 +1,9 @@
 import logoImage from "../../../assets/images/logo1.png"; // Import the image
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons"; // Correct import for faBars
 
-const Header = () => {
+function Header() {
   const navItems = [
     {
       id: 1,
@@ -44,22 +46,30 @@ const Header = () => {
             </div>
 
             {/* Header List-items */}
-            <div className="flex xs:flex-col lg:flex-row space-x-4">
-              {navItems.map((item) => (
-                <Link
-                  key={item.id}
-                  to={item.navLinks}
-                  className="text-lg font-medium text-gray-800 hover:bg-gray-400 px-4 py-2 rounded transition-all"
-                >
-                  {item.name}
-                </Link>
-              ))}
+            <div className="xs:static absolute bg-white md:min-h-[60vh] left-0 w-full">
+              <div className="flex xs:flex-col lg:flex-row space-x-4">
+                {navItems.map((item) => (
+                  <Link
+                    key={item.id}
+                    to={item.navLinks}
+                    className="text-lg font-medium text-gray-800 hover:bg-gray-400 px-4 py-2 rounded transition-all"
+                  >
+                    {item.name}
+                  </Link>
+                ))}
+              </div>
+            </div>
+
+            <div>
+              {/* Correct usage of FontAwesomeIcon */}
+              <FontAwesomeIcon icon={faBars} />{" "}
+              {/* Use the imported icon here */}
             </div>
           </nav>
         </header>
       </section>
     </div>
   );
-};
+}
 
 export default Header;
