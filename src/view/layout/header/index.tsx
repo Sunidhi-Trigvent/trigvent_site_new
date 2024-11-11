@@ -42,9 +42,9 @@ function Header() {
   return (
     <div>
       <section className="">
-        <header className="bg-slate-300">
+        <header className="bg-slate-300 ">
           <nav className="flex justify-between items-center p-2 w-[100%] bg-red-400 mx-auto ">
-            <div className="mx-6 lg:mx-[156px]">
+            <div className="xl:mx-auto w-full flex justify-center lg:mx-6">
               <img
                 src={logoImage} // Use the imported image here
                 alt="explore image"
@@ -65,7 +65,7 @@ function Header() {
             <div
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              } xs:min-h-[40vh] space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-[92%] lg:static lg:w-auto absolute top-20 left-1/2 transform -translate-x-1/2 bg-white px-2 py-2 lg:space-y-0`}
+              } xs:min-h-[40vh] space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-[92%] lg:static lg:w-auto absolute top-20 left-1/2 transform -translate-x-1/2 bg-slate-100 px-2 py-2 lg:space-y-0`}
             >
               <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 {navItems.map((item) => (
