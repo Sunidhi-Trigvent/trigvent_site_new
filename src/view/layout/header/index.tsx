@@ -39,12 +39,12 @@ const Header = () => {
               <img
                 src={logoImage} // Use the imported image here
                 alt="explore image"
-                className="w-16 h-16" // Tailwind class for width and height
+                className="w-16 h-16 max-w-[4rem] max-h-[4rem]" // Fixed size for the logo
               />
             </div>
 
             {/* Header List-items */}
-            <div className="flex space-x-4">
+            <div className="flex xs:flex-col lg:flex-row space-x-4">
               {navItems.map((item) => (
                 <Link
                   key={item.id}
