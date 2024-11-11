@@ -43,7 +43,7 @@ function Header() {
     <div>
       <section className="">
         <header className="bg-slate-300">
-          <nav className="flex justify-between items-center p-2 w-[92%] bg-red-400 mx-auto ">
+          <nav className="flex justify-between items-center p-2 w-[100%] bg-red-400 mx-auto ">
             <div className="mx-6 lg:mx-[102px]">
               <img
                 src={logoImage} // Use the imported image here
@@ -53,7 +53,7 @@ function Header() {
             </div>
 
             {/* Menu Toggle */}
-            <div className="block lg:hidden">
+            <div className="block mr-16 lg:hidden">
               <FontAwesomeIcon
                 onClick={onToggleMenu} // Toggle menu state
                 icon={isMenuOpen ? faX : faBars} // Toggle between faX and faBars
