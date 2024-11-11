@@ -34,7 +34,7 @@ const Header = () => {
     <div>
       <section className="h-screen bg-blue-300">
         <header className="bg-slate-300">
-          <nav className="flex justify-between items-center p-4">
+          <nav className="flex justify-between items-center p-4 w-[92%] bg-red-400 mx-auto">
             <div>
               <img
                 src={logoImage} // Use the imported image here
