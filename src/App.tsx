@@ -4,8 +4,8 @@ import { routers } from "./routes";
 function App() {
   return (
     <>
-      <h1 className="text-center font-bold underline">Trigvent</h1>
-      <p>hello</p>
+      {/* <h1 className="text-center font-bold underline">Trigvent</h1> */}
+
       <RouterProvider router={routers} />
     </>
   );
