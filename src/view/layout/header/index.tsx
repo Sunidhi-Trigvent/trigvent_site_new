@@ -51,7 +51,7 @@ function Header() {
             </div>
 
             {/* Header List-items */}
-            <div className="xs:static absolute bg-white md:min-h-[60vh] left-0 w-full">
+            <div>
               <div className="flex xs:flex-col lg:flex-row space-x-4">
                 {navItems.map((item) => (
                   <Link
