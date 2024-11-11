@@ -44,7 +44,7 @@ function Header() {
       <section className="">
         <header className="bg-slate-300 ">
           <nav className="flex justify-between items-center p-2 w-[100%] bg-red-400 mx-auto ">
-            <div className="xl:mx-auto w-full flex justify-center lg:mx-6">
+            <div className="items-center  ">
               <img
                 src={logoImage} // Use the imported image here
                 alt="explore image"
