@@ -65,14 +65,15 @@ function Header() {
             <div
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              }md:min-h-[60vh] space-y-4 lg:min-h-[10vh]  lg:flex lg:space-x-4 lg:static lg:w-auto absolute top-16 left-0 w-full bg-white px-4 py-2  lg:space-y-0`}
+              } md:min-h-[60vh] space-y-4 lg:min-h-[10vh] lg:flex lg:space-x-4 lg:static lg:w-auto absolute top-16 left-0 w-full bg-white px-4 py-2 lg:space-y-0`}
             >
-              <div className="flex flex-col lg:flex-row  space-y-4 lg:space-y-0">
+              <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0">
                 {navItems.map((item) => (
                   <Link
                     key={item.id}
                     to={item.navLinks}
                     className="text-lg font-medium text-gray-800 hover:bg-gray-400 px-4 py-2 rounded transition-all"
+                    onClick={() => setIsMenuOpen(false)} // Close menu on item click
                   >
                     {item.name}
                   </Link>
