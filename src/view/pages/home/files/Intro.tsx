@@ -15,20 +15,20 @@ const Intro = () => {
           </p>
         </div>
 
-        <div className="lg:w-[60%]">
-          <h2 className="font-poppins font-semibold text-black text-left text-[20px] lg:text-[24px]">
+        <div className="lg:w-[75%]">
+          <h2 className="font-poppins font-semibold text-black ml-6 text-[20px] lg:text-[24px]">
             Have A Project in Mind? Chat With Our Experts.
           </h2>
 
           {/* Form fields */}
-          <section className="p-6 rounded-lg text-left max-w-md mx-auto">
-            <form className="space-y-3">
+          <section className="p-6 rounded-lg text-left max-w-full mx-auto ">
+            <form className="space-y-3 ">
               {/* Name Field */}
               <div>
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-[100%] h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 "
                 />
               </div>
 
@@ -37,7 +37,7 @@ const Intro = () => {
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-[100%] h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -46,7 +46,7 @@ const Intro = () => {
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="w-[100%] h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
               </div>
 
@@ -54,7 +54,7 @@ const Intro = () => {
               <div>
                 <textarea
                   placeholder="Message"
-                  className="w-[100%] px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
                 ></textarea>
               </div>
 
