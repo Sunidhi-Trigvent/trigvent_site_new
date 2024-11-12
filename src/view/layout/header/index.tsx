@@ -43,7 +43,7 @@ function Header() {
     <div>
       <section className="">
         <header className="bg-red-400 ">
-          <nav className="max-w-[1050px] flex justify-between items-center p-2  bg-red-400 mx-auto ">
+          <nav className="max-w-[1050px] flex justify-between items-center p-2  bg-red-400 mx-auto md:px-24 px-14">
             <div className="items-center  ">
               <img
                 src={logoImage} // Use the imported image here
@@ -53,7 +53,7 @@ function Header() {
             </div>
 
             {/* Menu Toggle */}
-            <div className="block mr-16 lg:hidden">
+            <div className="block mr-6 lg:hidden ">
               <FontAwesomeIcon
                 onClick={onToggleMenu} // Toggle menu state
                 icon={isMenuOpen ? faX : faBars} // Toggle between faX and faBars
@@ -65,7 +65,7 @@ function Header() {
             <div
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              } xs:min-h-[40vh] space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-[320px] lg:static md:w-[700px] lg:w-auto absolute top-20 left-1/2 transform -translate-x-1/2 bg-slate-100 px-2 py-2 lg:space-y-0`}
+              } xs:min-h-[40vh] space-y-8 lg:min-h-[10vh] lg:flex lg:space-x-4 xs:w-[320px] lg:static md:w-[640px] lg:w-auto absolute top-20 left-1/2 transform -translate-x-1/2 bg-slate-100 px-2 py-2 lg:space-y-0`}
             >
               <div className="flex flex-col lg:flex-row space-y-4 lg:space-y-0 pt-6 ">
                 {navItems.map((item) => (

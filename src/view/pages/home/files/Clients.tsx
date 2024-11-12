@@ -26,11 +26,11 @@ const Clients = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 object-cover">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
           <img
             src={Noosa} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className="w-33 h-20 max-w-[6rem] max-h-[4rem] object-contain " // Fixed size for the logo
           />
 
           <img
