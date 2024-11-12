@@ -1,8 +1,8 @@
 const Intro = () => {
   return (
     <>
-      <section className="mx-auto w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-[200px] justify-center pt-32">
-        <div className="lg:w-[120%]">
+      <section className="mx-auto max-w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-[100px] justify-center pt-32">
+        <div className="lg:max-w-[120%]">
           <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] lg:text-[41px] leading-[1.5em] ">
             Creating Mobile, Desktop & Web Software Has Never Been Easier
           </h1>
@@ -15,7 +15,7 @@ const Intro = () => {
           </p>
         </div>
 
-        <div className="lg:w-[75%]">
+        <div className="lg:max-w-[60%]">
           <h2 className="font-poppins font-semibold text-black ml-6 text-[20px] lg:text-[24px]">
             Have A Project in Mind? Chat With Our Experts.
           </h2>
