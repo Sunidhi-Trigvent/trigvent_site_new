@@ -2,7 +2,7 @@ const Intro = () => {
   return (
     <>
       <section className="mx-auto max-w-[80%] grid grid-cols-1 lg:grid-cols-2 gap-[100px] justify-center pt-32">
-        <div className="lg:max-w-[120%]">
+        <div className="lg:max-w-[80%]">
           <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] lg:text-[41px] leading-[1.5em] ">
             Creating Mobile, Desktop & Web Software Has Never Been Easier
           </h1>
@@ -15,7 +15,7 @@ const Intro = () => {
           </p>
         </div>
 
-        <div className="lg:max-w-[60%]">
+        <div className="lg:max-w-[80%]">
           <h2 className="font-poppins font-semibold text-black ml-6 text-[20px] lg:text-[24px]">
             Have A Project in Mind? Chat With Our Experts.
           </h2>
@@ -28,7 +28,7 @@ const Intro = () => {
                 <input
                   type="text"
                   placeholder="Name"
-                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 "
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black "
                 />
               </div>
 
@@ -37,7 +37,7 @@ const Intro = () => {
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
 
@@ -46,7 +46,7 @@ const Intro = () => {
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full h-12 px-4 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black"
                 />
               </div>
 
@@ -54,14 +54,14 @@ const Intro = () => {
               <div>
                 <textarea
                   placeholder="Message"
-                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 h-32"
+                  className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black h-32"
                 ></textarea>
               </div>
 
               {/* Submit Button */}
               <button
                 type="submit"
-                className="w-3/4 px-4 py-2 bg-[#B00A1E] text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300"
+                className="w-3/4 px-4 py-2 bg-[#B00A1E] text-white  font-semibold rounded-md  transition duration-300"
               >
                 Get in Touch
               </button>
