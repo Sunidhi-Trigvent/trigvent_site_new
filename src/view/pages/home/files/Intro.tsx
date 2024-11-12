@@ -1,9 +1,9 @@
 const Intro = () => {
   return (
     <>
-      <section className=" grid grid-cols-1 lg:grid-cols-2 gap-[100px] pt-32">
-        <div className="lg:max-w-[80%]">
-          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[44px] leading-[1.5em] ">
+      <section className=" grid grid-cols-1 lg:grid-cols-2 gap-[60px] pt-32">
+        <div className="lg:max-w-[900px]">
+          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[48px] lg:text-[41px] leading-[1.5em] ">
             Creating Mobile, Desktop & Web Software Has Never Been Easier
           </h1>
 
@@ -15,7 +15,7 @@ const Intro = () => {
           </p>
         </div>
 
-        <div className="lg:max-w-[80%]">
+        <div className="lg:max-w-[300px]">
           <h2 className="font-poppins font-semibold text-black ml-6 text-[20px] lg:text-[24px]">
             Have A Project in Mind? Chat With Our Experts.
           </h2>

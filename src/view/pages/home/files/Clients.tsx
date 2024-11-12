@@ -16,7 +16,7 @@ const Clients = () => {
             CLIENTS
           </h3>
 
-          <h4 className="font-poppins font-bold uppercase text-[27px]">
+          <h4 className="font-poppins font-bold uppercase text-[27px] pt-4">
             Some brands we’ve worked with:
           </h4>
           <p className="font-poppins  text-[17px]">
@@ -26,7 +26,7 @@ const Clients = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-8">
           <img
             src={Noosa} // Use the imported image here
             alt="explore image"
