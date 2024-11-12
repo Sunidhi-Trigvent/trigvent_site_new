@@ -3,7 +3,7 @@ const Intro = () => {
     <>
       <section className=" grid grid-cols-1 lg:grid-cols-2 gap-[100px] pt-32">
         <div className="lg:max-w-[80%]">
-          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[41px] leading-[1.5em] ">
+          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[44px] leading-[1.5em] ">
             Creating Mobile, Desktop & Web Software Has Never Been Easier
           </h1>
 

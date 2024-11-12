@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
       {/* <p>Home page</p> */}
-      <section className="mx-auto max-w-[1050px] px-5 lg:px-0 justify-center ">
+      <section className="mx-auto max-w-[1050px] px-9 md:px-16 lg:px-24 xl:px-0 justify-center ">
         <Intro />
         <Clients />
       </section>
