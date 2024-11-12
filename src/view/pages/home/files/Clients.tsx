@@ -26,7 +26,7 @@ const Clients = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 object-cover">
           <img
             src={Noosa} // Use the imported image here
             alt="explore image"
