@@ -65,7 +65,7 @@ function Header() {
             <div
               className={`${
                 isMenuOpen ? "block" : "hidden"
-              } xs:min-h-[40vh] lg:min-h-1 lg:flex xs:w-[320px] lg:static md:w-[640px] lg:w-[420px]   absolute top-20 left-1/2 transform -translate-x-1/2 bg-slate-100 px-2 py-2 lg:space-y-0`}
+              } xs:min-h-[40vh] lg:min-h-1 lg:flex xs:w-[320px] lg:static md:w-[640px] lg:w-[620px] lg:left-0 lg:transform-translate-x-0 absolute top-20 left-1/2 transform-translate-x-1/2 bg-slate-100 px-2 py-2 lg:space-y-0`}
             >
               <div className="flex flex-col lg:flex-row  ">
                 {navItems.map((item) => (
