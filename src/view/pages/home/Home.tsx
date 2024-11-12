@@ -1,7 +1,10 @@
+import Intro from "./files/Intro";
+
 const Home = () => {
   return (
     <div>
-      <p>Home page</p>
+      {/* <p>Home page</p> */}
+      <Intro />
     </div>
   );
 };

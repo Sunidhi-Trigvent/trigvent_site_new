@@ -42,7 +42,7 @@ function Header() {
   return (
     <div>
       <section className="">
-        <header className="bg-slate-300 ">
+        <header className="bg-slate-300 mx-auto">
           <nav className="flex justify-between items-center p-2 w-[100%] bg-red-400 mx-auto ">
             <div className="items-center  ">
               <img
