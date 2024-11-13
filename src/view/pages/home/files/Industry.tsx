@@ -7,7 +7,7 @@ const Industry = () => {
         INDUSTRIES
       </h3>
 
-      <p className="font-poppins  text-left text-[16px]">
+      <p className="font-sans  text-left text-[16px]">
         Whether as a website development agency or app development agency,
         Trigvent Solutions has played an integral part in shaping the web
         presence of some elite brands. We’ve had the pleasure of growing brands

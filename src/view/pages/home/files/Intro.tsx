@@ -15,7 +15,7 @@ const Intro = () => {
           </p>
         </div>
 
-        <div className="lg:max-w-[300px]">
+        <div className="lg:max-w-[415px]  lg:ml-auto ">
           <h2 className="font-poppins font-semibold text-[rgb(51,51,51)] ml-6 text-[20px] lg:text-[24px]">
             Have A Project in Mind? Chat With Our Experts.
           </h2>
