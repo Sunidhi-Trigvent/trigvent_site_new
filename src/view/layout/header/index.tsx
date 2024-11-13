@@ -43,7 +43,7 @@ function Header() {
     <div>
       <section className="">
         <header className="bg-red-400 ">
-          <nav className="max-w-[1350px] flex justify-between items-center p-2  bg-red-400 mx-auto md:px-24 px-14">
+          <nav className="max-w-[1350px] flex justify-between items-center p-2 bg-red-400 mx-auto md:px-24 px-14 xl:pl-[10rem] xl:pr-[18rem]">
             <div className="items-center  ">
               <img
                 src={logoImage} // Use the imported image here
