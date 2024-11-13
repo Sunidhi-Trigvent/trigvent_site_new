@@ -1,13 +1,13 @@
 const Intro = () => {
   return (
     <>
-      <section className=" grid grid-cols-1 lg:grid-cols-2 gap-[70px] pt-32">
+      <section className=" grid grid-cols-1 lg:grid-cols-2 gap-[10px] pt-32">
         <div className="lg:max-w-[900px]">
-          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[48px] lg:text-[41px] leading-[1.5em] ">
+          <h1 className="font-poppins font-semibold text-black text-left text-[24px] sm:text-[24px] md:text-[48px] lg:text-[44px] leading-[1.5em] ">
             Creating Mobile, Desktop & Web Software Has Never Been Easier
           </h1>
 
-          <p className="mt-4">
+          <p className="mt-4 lg:text-[19px] leading-[1.5em] font-semibold">
             We specialize in developing innovative technological solutions for
             businesses of all sizes, and our team of experienced professionals
             is committed to providing you with the best possible service and
