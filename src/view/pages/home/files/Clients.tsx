@@ -12,7 +12,7 @@ const Clients = () => {
     <>
       <section className=" ">
         <div>
-          <h3 className="font-poppins font-semibold text-[39px] text-[#b00a1e] text-left">
+          <h3 className="w-full font-poppins font-semibold text-[39px] text-[#b00a1e] text-left">
             CLIENTS
           </h3>
 
