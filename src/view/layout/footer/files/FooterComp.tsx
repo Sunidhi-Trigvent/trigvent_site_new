@@ -1,25 +1,65 @@
+import logoImage from "../../../../assets/images/logo200-white1.png"; // Import the image
+
 const FooterComp = () => {
   return (
     <>
-      <section className="bg-[#E5E6E6] w-[100%]">
+      <section className="bg-[#000000] w-[100%]">
         <div className="mx-auto max-w-[1350px]  justify-center">
-          <footer className="footer bg-base-300 text-base-content pl-24 pt-10 ">
-            <nav>
-              <h6 className="footer-title">Services</h6>
-              <a className="link link-hover">Branding</a>
-              <a className="link link-hover">Design</a>
-              <a className="link link-hover">Marketing</a>
-              <a className="link link-hover">Advertisement</a>
+          <footer className="footer bg-[#000000] text-base-content pl-24 pt-10 ">
+            {/* additional nav */}
+            <section className="text-white text-[17px]">
+              <div>
+                <img
+                  src={logoImage} // Use the imported image here
+                  alt="explore image"
+                  className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+                />
+              </div>
+              <div>
+                <p className="w-23 h-16 max-w-[16rem] pt-2">
+                  To facilitate the transition and build every business around
+                  digital solutions.
+                </p>
+              </div>
+
+              <div className="w-23 h-16 max-w-[16rem]">
+                <p>
+                  Ready to speak with an expert?
+                  <br />
+                  Give us a ring
+                </p>
+              </div>
+
+              <div>
+                <a href="tel:+91123456789" className="btn">
+                  +91 123456789
+                </a>
+              </div>
+            </section>
+
+            <nav className="text-white text-[17px]">
+              <h6 className="footer-title text-[#B00A1E]">Industries</h6>
+              <a className="link link-hover">Retail and Ecommerce</a>
+              <a className="link link-hover">Sports and Fitness</a>
+              <a className="link link-hover">
+                Media, Publishing & Entertainment
+              </a>
+              <a className="link link-hover">Education and Training</a>
+              <a className="link link-hover">Food and Beverage</a>
+              <a className="link link-hover">Healthcare</a>
+              <a className="link link-hover">Automotive</a>
+              <a className="link link-hover">Telecommunication</a>
             </nav>
-            <nav>
-              <h6 className="footer-title">Company</h6>
+
+            <nav className="text-white text-[17px]">
+              <h6 className="footer-title text-[#B00A1E]">Company</h6>
               <a className="link link-hover">About us</a>
               <a className="link link-hover">Contact</a>
               <a className="link link-hover">Jobs</a>
               <a className="link link-hover">Press kit</a>
             </nav>
-            <nav>
-              <h6 className="footer-title">Social</h6>
+            <nav className="text-white text-[17px]">
+              <h6 className="footer-title text-[#B00A1E]">Let's Connnect</h6>
               <div className="grid grid-flow-col gap-4">
                 <a>
                   <svg
