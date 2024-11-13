@@ -48,7 +48,7 @@ function Header() {
               <img
                 src={logoImage} // Use the imported image here
                 alt="explore image"
-                className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+                className=" max-w-[99px] max-h-[32px] " // Fixed size for the logo
               />
             </div>
 

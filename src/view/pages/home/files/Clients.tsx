@@ -12,7 +12,7 @@ const Clients = () => {
     <>
       <section className=" ">
         <div>
-          <h3 className="w-full font-poppins font-semibold text-[39px] text-[#b00a1e] text-left">
+          <h3 className=" font-poppins font-semibold text-[39px] text-[#b00a1e] text-left">
             CLIENTS
           </h3>
 
@@ -30,45 +30,45 @@ const Clients = () => {
           <img
             src={Noosa} // Use the imported image here
             alt="explore image"
-            className="w-33 h-20 max-w-[6rem] max-h-[4rem] object-contain " // Fixed size for the logo
+            className="max-w-[207px] max-h-[55px]  object-contain " // Fixed size for the logo
           />
 
           <img
             src={oxygen} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className=" max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
 
           <img
             src={questa} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className=" max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
 
           <img
             src={syndicate} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className="max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
           <img
             src={browsa} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className=" max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
           <img
             src={symalite} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className="max-w-[207px] max-h-[55px] object-contain " // Fixed size for the logo
           />
           <img
             src={space} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className=" max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
           <img
             src={dealrated} // Use the imported image here
             alt="explore image"
-            className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+            className=" max-w-[207px] max-h-[55px] object-contain" // Fixed size for the logo
           />
         </div>
       </section>

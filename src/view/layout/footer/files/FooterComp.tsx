@@ -12,7 +12,7 @@ const FooterComp = () => {
                 <img
                   src={logoImage} // Use the imported image here
                   alt="explore image"
-                  className="w-23 h-16 max-w-[6rem] max-h-[4rem] " // Fixed size for the logo
+                  className="w-[146px] h-[51px]" // Fixed size for the logo
                 />
               </div>
               <div>
