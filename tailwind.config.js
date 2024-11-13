@@ -14,7 +14,15 @@ export default {
         "4xl": "2560px", // Custom 4xl breakpoint for large desktop screens
         "5xl": "3840px", // Custom 5xl breakpoint for ultra-wide monitors
       },
+
+      fontFamily: {
+        poppins: ["Poppins", "Helvetica", "Arial", "sans-serif"], // Define your custom font family
+      },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+
+  daisyui: {
+    themes: ["light"], // Use "light" theme explicitly
+  },
 };

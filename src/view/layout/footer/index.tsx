@@ -1,7 +1,10 @@
+import FooterComp from "./files/FooterComp";
+
 const Footer = () => {
   return (
     <div>
-      <p>Footer</p>
+      {/* <p>Footer</p> */}
+      <FooterComp />
     </div>
   );
 };
