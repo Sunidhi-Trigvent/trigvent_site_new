@@ -3,7 +3,7 @@ import Trig1 from "../../../../assets/images/Trig1-980x490.png"; // Import the i
 const Industry = () => {
   return (
     <>
-      <h3 className="font-poppins font-semibold uppercase text-left text-[39px] text-[#b00a1e]">
+      <h3 className="font-poppins font-semibold uppercase text-left text-[39px] text-[#b00a1e] pt-20">
         INDUSTRIES
       </h3>
 
